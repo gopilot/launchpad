@@ -1,0 +1,33 @@
+html
+	meta(charset='utf8')
+	meta(http-equiv='X-UA-Compatible', content='IE=edge, chrome=1')
+	meta(name='description', content='Pilot: Beginner Resources')
+	meta(property='og:title', content="Pilot - Launchpad")
+	meta(property="og:url", content="http://launchpad.gopilot.org/")
+	meta(property="og:site_name", content="GoPilot")
+	meta(property="og:type", content="website")
+	meta(property="og:image", content="http://dc.gopilot.org/img/logo_fb.png")
+	meta(name='author', content= "Pilot")
+	meta(name="viewport", content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1")
+
+	title="Pilot - Launchpad"
+
+	link(rel='stylesheet', href='/css/font-awesome/css/font-awesome.css')
+	link(rel='stylesheet', href='/css/bootstrap/css/bootstrap.css')
+	link(rel='stylesheet', href='/css/master.css')
+body
+	.header
+		.wrap
+			h1 Resources
+
+	.tab-container
+		.tabs
+			each topic in getCollection('topics').findAll({}, [{order: 1}]).toJSON()
+				a.tab-item(href="#"+topic.link, data-topic=topic.link, id="tab-"+topic.link)= topic.link+" "		
+		.tab-arrow
+			span.fa.fa-angle-down
+	.content
+		each topic in getCollection('topics').findAll({}, [{order: 1}]).toJSON()
+			div.topic.markdown(id="topic-"+topic.link)!= topic.contentRendered
+
+	<script data-main="js/main.js" src="js/require.js"></script>

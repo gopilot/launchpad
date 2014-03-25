@@ -1,0 +1,231 @@
+@import 'nib'
+@import '_settings'
+@import '_fonts'
+@import '_markdown'
+
+blue = #78BAE2
+dark-blue = #589AC2
+green = #7fc028
+dark-green = #5FA00B
+bordersize = 2px
+borderdist = -10px
+bordertopoffset = 115px
+maxwidth = 1000px
+global-reset()
+
+html
+    width 100%
+    height 100% !important
+
+body
+    width 100%
+    height 100%
+    color white
+    font-family DIN
+    font-weight 200
+    font-size 22px
+    line-height 1.4
+
+a
+    text-decoration none
+
+    &:hover
+        text-decoration none
+        border-bottom 1px solid blue
+
+strong
+    font-weight 500
+
+section
+	width 100%
+	padding 20px 0px
+
+	&.light
+		background white
+		color #333
+
+	&.dark
+		background #333
+		color white
+
+	&.blue
+		background blue
+		color white
+
+#wrapper
+    position relative
+    max-width 1200px
+    margin 0px auto
+
+p
+    margin 19px 0
+
+h1,h2,h3,h4,h5,h6
+    font-weight normal
+h1
+    font-family: Clarendon;
+    font-size: 102px;
+    text-shadow: 1px 2px 0px #000000;
+    margin-bottom: 0
+
+h2
+    font-family: DIN
+    font-weight 200
+    font-size: 56px
+    margin .5em 0
+    
+
+h3
+    font-family: DIN 
+    font-weight 200
+    font-size: 34px
+    margin-top: 0
+
+h1 + h3
+    margin-top: 15px
+
+
+.black
+    color #333
+
+.blue
+    color blue
+
+.white
+    color white
+
+.wrap, header 
+    max-width maxwidth
+    margin 0px auto
+
+.content
+    max-width 900px
+
+.upper
+    text-transform uppercase
+
+.small
+    font-family DIN
+    font-size 18px
+
+.sans-serif
+    font-family DIN
+    font-weight 400
+
+.sans-serif-thin
+    font-family DIN
+    font-weight 200
+
+.serif
+    font-family Clarendon
+
+.center
+    margin 0px auto
+    text-align center
+
+.pull-left
+    display inline
+    float left
+
+.pull-right
+    display inline
+    float right
+
+.pull-bottom
+    position absolute
+    bottom 0
+
+    &.pull-right
+        right 0
+
+    &.pull-left
+        left 0
+
+    &.center
+        left 0
+        right 0
+
+.vertical-align
+    position absolute
+    top 0
+    bottom 0
+    margin auto
+
+    &.pull-right
+        right 0
+
+    &.pull-left
+        left 0
+
+    &.center
+        left 0
+        right 0
+        text-align center
+body
+    background-image url(/img/mentor.jpg)
+    background-size cover
+    height 200px
+    width 100%
+    height 100%
+
+.tabs
+    display table
+    margin 25px auto
+    margin-bottom 0px
+    max-width maxwidth
+    height 50px
+    background white
+    padding 5px 0px
+    .tab-item
+        display table-cell
+        width 2%
+        height 50px
+        font-size 30px
+        border-left 1px solid #333
+        text-align center
+        line-height 50px
+        color black
+        &:hover
+            border-bottom none
+            color blue
+        &:first-child
+            border-left none
+.tab-container
+    max-width maxwidth
+    margin 0px auto
+    height 70px
+    .tab-arrow
+        display block
+        width 45px
+        height 100%
+        position relative
+        left 0
+        margin-top -5px
+        text-align center
+        font-size 70px
+        transition left 1s
+
+
+.content
+    margin 50px auto
+    max-width maxwidth
+    background white
+    color black
+    position relative
+    transition height 1s
+    overflow hidden
+
+    .topic
+        position absolute
+        left 0
+        top 0
+        opacity 0 !important
+        padding 25px
+        pointer-events none
+        transition opacity 0.5s
+
+        &.visible
+            opacity 1 !important
+            pointer-events auto
+
+@import "_mq"
