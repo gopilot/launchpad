@@ -4,4 +4,4 @@ A site with a list of tutorials, guides, installers, and other resources helpful
 
 Contributing
 ------------
-If you want to add some of your favorite tutorials, guides, languages, or more to this project, feel free to contribute! All tutorial lists are in markdown in the src/documents/topics directory, and so if you want to add something just fork this, make changes on a new branch, then send us a pull request!
+If you want to add some of your favorite tutorials, guides, languages, or more to this project, feel free to contribute! All tutorial lists are in markdown in the [src/documents/topics](https://github.com/gopilot/launchpad/tree/master/src/documents/topics) directory, and so if you want to add something just fork this, make changes on a new branch, then send us a pull request!
