@@ -35,6 +35,11 @@ Tutorials
 ---------
 * [Codecademy JS Tutorial](http://codecademy.com/tracks/javascript)
 * [Javascript tutorials](http://htmldog.com/guides/javascript/)
+* [Learn Javascript | MDN](https://developer.mozilla.org/en-US/learn/javascript)
+
+Books
+-----
+* [Free Javascript books](http://jsbooks.revolunet.com/)
 
 jQuery
 ------
