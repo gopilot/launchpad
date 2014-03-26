@@ -11,6 +11,7 @@ Tutorials
 ---------
 * [Codecademy HTML/CSS Tutorial](http://www.codecademy.com/tracks/web)
 * [HTML Tutorials for beginners](http://www.htmldog.com/guides/html/beginner/)
+* [Treehouse Web Development Videos](http://teamtreehouse.com/tracks/frontend-web-development) - Requires subscription but has 7-day free trial
 
 CSS
 ===

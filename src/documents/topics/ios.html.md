@@ -3,4 +3,16 @@ link: iOS
 title: Resources for iOS Development
 order: 1
 ---
-Check back soon for lots of great resources about creating iOS apps!
+iOS Development
+===============
+
+Getting Set up
+--------------
+* You can only develop for iOS on Mac, so sorry Windows users...
+* You'll need register for FREE in order to download the tools you'll need [Click Here to register](https://developer.apple.com/register/index.action)
+* If you want to test apps on your device (instead of the simulator), you need to enroll in the [iOS Developer Program](https://developer.apple.com/programs/ios/) for $99
+
+Tutorials
+---------
+* [Start Developing iOS apps today](https://developer.apple.com/library/iOS/referencelibrary/GettingStarted/RoadMapiOS/index.html) - Apple's own beginner tutorial, which walks you through the whole process
+* [Treehouse iOS Development Videos](http://teamtreehouse.com/tracks/ios-development) - Is usually paid by has a  7-day free trial
