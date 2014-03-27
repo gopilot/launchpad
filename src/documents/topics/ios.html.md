@@ -15,4 +15,4 @@ Getting Set up
 Tutorials
 ---------
 * [Start Developing iOS apps today](https://developer.apple.com/library/iOS/referencelibrary/GettingStarted/RoadMapiOS/index.html) - Apple's own beginner tutorial, which walks you through the whole process
-* [Treehouse iOS Development Videos](http://teamtreehouse.com/tracks/ios-development) - Is usually paid by has a  7-day free trial
+* [Treehouse iOS Development Videos](http://teamtreehouse.com/tracks/ios-development) - Usually requires a credit card but has a 7-day free trial
