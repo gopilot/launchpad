@@ -1,0 +1,83 @@
+@font-face{font-family:'DIN';font-weight:200;src:url("font/dinl____.eot");src:url("font/dinl____.eot") format('embedded-opentype'),url("font/dinl____.woff") format('woff'),url("font/dinl____.ttf") format('truetype'),url("font/dinl____.svg#DINLightRegular") format('svg')}
+@font-face{font-family:'DIN';font-weight:400;src:url("font/dinm____.eot");src:url("font/dinm____.eot") format('embedded-opentype'),url("font/dinm____.woff") format('woff'),url("font/dinm____.ttf") format('truetype'),url("font/dinm____.svg#DINMediumRegular") format('svg')}
+@font-face{font-family:'Clarendon';src:url("font/clarendonltstd-webfont.eot");src:url("font/clarendonltstd-webfont.eot?#iefix") format('embedded-opentype'),url("font/clarendonltstd-webfont.woff") format('woff'),url("font/clarendonltstd-webfont.ttf") format('truetype'),url("font/clarendonltstd-webfont.svg#clarendon_lt_stdregular") format('svg');font-weight:normal;font-style:normal}
+.markdown p{margin:1em 0}
+.markdown h1,.markdown h2,.markdown h3,.markdown h4,.markdown h5,.markdown h6{font-family:DIN;font-weight:500;line-height:1em;padding-bottom:7px;text-shadow:none}
+.markdown h1{font-weight:200;font-size:72px;border-bottom:1px solid #333}
+.markdown h2{font-size:40px}
+.markdown blockquote{color:#444;margin:0;padding-left:3em;border-left:.5em solid #aaa}
+.markdown hr{display:block;height:2px;border:0;border-top:1px solid #aaa;border-bottom:1px solid #eee;margin:1em 0;padding:0}
+.markdown pre,.markdown code,.markdown kbd,.markdown samp{color:#000;font-family:momospace,'Bitstream Vera Sans Mono', Consolas, Courier, monospace;_font-family:'courier new','Bitstream Vera Sans Mono', Consolas, Courier, monospace;font-size:.98em;background:#ddd}
+.markdown b,.markdown strong{font-weight:bold}
+.markdown dfn{font-style:italic}
+.markdown ul,.markdown ol{margin:1em 0;padding:0 0 0 2em}
+.markdown ul li:before{content:"\2022";margin-right:1em;color:#333}
+.markdown li p:last-child{margin:0}
+.markdown dl dt{font-weight:bold}
+.markdown dl dd{padding-left:2em}
+.markdown img{max-width:100%;border:0;vertical-align:middle}
+.markdown table{border-collapse:collapse;border-spacing:5px;color:#272727}
+.markdown td{vertical-align:top}
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-weight:inherit;font-style:inherit;font-family:inherit;font-size:100%;vertical-align:baseline}
+body{line-height:1;color:#272727;background:#fff}
+ol,ul{list-style:none}
+table{border-collapse:separate;border-spacing:0;vertical-align:middle}
+caption,th,td{text-align:left;font-weight:normal;vertical-align:middle}
+a img{border:none}
+html{width:100%;height:100% !important}
+body{width:100%;height:100%;color:#fff;font-family:DIN;font-weight:200;font-size:22px;line-height:1.4}
+a{text-decoration:none;}
+a:hover{text-decoration:none;border-bottom:1px solid #78bae2}
+strong{font-weight:500}
+section{width:100%;padding:20px 0;}
+section.light{background:#fff;color:#333}
+section.dark{background:#333;color:#fff}
+section.blue{background:#78bae2;color:#fff}
+#wrapper{position:relative;max-width:1200px;margin:0 auto}
+p{margin:19px 0}
+h1,h2,h3,h4,h5,h6{font-weight:normal}
+h1{font-family:Clarendon;font-size:102px;text-shadow:1px 2px 0 #000;margin-bottom:0}
+h2{font-family:DIN;font-weight:200;font-size:56px;margin:.5em 0}
+h3{font-family:DIN;font-weight:200;font-size:34px;margin-top:0}
+h1 + h3{margin-top:15px}
+.black{color:#333}
+.blue{color:#78bae2}
+.white{color:#fff}
+.wrap,header{max-width:1000px;margin:0 auto}
+.content{max-width:900px}
+.upper{text-transform:uppercase}
+.small{font-family:DIN;font-size:18px}
+.sans-serif{font-family:DIN;font-weight:400}
+.sans-serif-thin{font-family:DIN;font-weight:200}
+.serif{font-family:Clarendon}
+.center{margin:0 auto;text-align:center}
+.pull-left{display:inline;float:left}
+.pull-right{display:inline;float:right}
+.pull-bottom{position:absolute;bottom:0;}
+.pull-bottom.pull-right{right:0}
+.pull-bottom.pull-left{left:0}
+.pull-bottom.center{left:0;right:0}
+.vertical-align{position:absolute;top:0;bottom:0;margin:auto;}
+.vertical-align.pull-right{right:0}
+.vertical-align.pull-left{left:0}
+.vertical-align.center{left:0;right:0;text-align:center}
+body{background-image:url("/img/mentor.jpg");-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;height:200px;width:100%;height:100%}
+.github-link{display:block;margin:10px;margin-right:20px;position:absolute;top:0;right:0;color:#fff;font-size:18px;}
+.github-link:hover{color:#ccc;text-decoration:none;border-bottom:1px solid #ccc}
+.github-link .fa{margin-right:5px}
+.tabs{display:table;margin:25px auto;margin-bottom:0;max-width:1000px;height:50px;background:#fff;padding:5px 0;}
+.tabs .tab-item{display:table-cell;width:2%;height:50px;font-size:30px;border-left:1px solid #333;text-align:center;line-height:50px;color:#272727;}
+.tabs .tab-item:hover{border-bottom:none;color:#78bae2}
+.tabs .tab-item:first-child{border-left:none}
+.tab-container{max-width:1000px;margin:0 auto;height:70px;}
+.tab-container .tab-arrow{display:block;width:45px;height:100%;position:relative;left:0;margin-top:-5px;text-align:center;font-size:70px;-webkit-transition:left 1s;-moz-transition:left 1s;-o-transition:left 1s;-ms-transition:left 1s;transition:left 1s}
+.content{margin:50px auto;max-width:1000px;width:100%;background:#fff;color:#272727;position:relative;-webkit-transition:height 1s;-moz-transition:height 1s;-o-transition:height 1s;-ms-transition:height 1s;transition:height 1s;overflow:hidden;}
+.content .topic{position:absolute;left:0;top:0;opacity:0 !important;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)" !important;filter:alpha(opacity=0) !important;padding:25px;pointer-events:none;-webkit-transition:opacity .5s;-moz-transition:opacity .5s;-o-transition:opacity .5s;-ms-transition:opacity .5s;transition:opacity .5s;width:100%;}
+.content .topic.visible{opacity:1 !important;-ms-filter:none;filter:none;pointer-events:auto}
+@media (max-width: 600px){h1{font-size:42px}
+.tab-container{display:block;width:100%;padding:10px;}
+.tab-container .tab-item{display:block;border-left:none;border-top:1px solid #333}
+.tab-item:first-child{border-top:none}
+.markup h1{font-size:30px}
+.markup h2{font-size:20px}
+}
